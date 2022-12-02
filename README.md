@@ -52,7 +52,7 @@ Follow the instructions in [alternate_README.md](alternate_README.md) for a temp
 ![./emoji/meow_hype.gif](./emoji/meow_hype.gif)
 ![./emoji/erlkonig.png](./emoji/erlkonig.png)
 ![./emoji/lady-late-lunch.png](./emoji/lady-late-lunch.png)
-![./emoji/disney%2B.png](./emoji/disney%2B.png)
+![./emoji/disney+.png](./emoji/disney+.png)
 ![./emoji/drizzle-2.png](./emoji/drizzle-2.png)
 ![./emoji/beans-ul.png](./emoji/beans-ul.png)
 ![./emoji/aib.jpg](./emoji/aib.jpg)
