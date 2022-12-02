@@ -31,7 +31,7 @@ OSX's default sed is bad. Install gnu-sed and try again.
 
 ### It's not working due to Issue [#6](https://github.com/jackellenberger/allmyemojichildren/issues/6)
 
-Follow the instructions in [alternate_README.md](alternat_README.md) for a temporary workaround until Issue [#6](https://github.com/jackellenberger/allmyemojichildren/issues/6) is resolved.
+Follow the instructions in [alternate_README.md](alternate_README.md) for a temporary workaround until Issue [#6](https://github.com/jackellenberger/allmyemojichildren/issues/6) is resolved.
 
 # And now:
 
