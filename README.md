@@ -104,7 +104,6 @@ Follow the instructions in [alternate_README.md](alternate_README.md) for a temp
 ![./emoji/-it-.png](./emoji/-it-.png)
 ![./emoji/emoji.png](./emoji/emoji.png)
 ![./emoji/may-shrek-be-with-you.png](./emoji/may-shrek-be-with-you.png)
-![./emoji/.DS_Store](./emoji/.DS_Store)
 ![./emoji/why_are_you_running_intensifies4.png](./emoji/why_are_you_running_intensifies4.png)
 ![./emoji/planner-hehe-1.png](./emoji/planner-hehe-1.png)
 ![./emoji/+11.png](./emoji/+11.png)
