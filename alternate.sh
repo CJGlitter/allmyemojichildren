@@ -1,7 +1,7 @@
 #!/bin/bash
 date=`date +%Y-%m-%d`
 
-sed -i '/<!--start emoji-->/Q' README.md >> README.md
+gsed -i '/<!--start emoji-->/Q' README.md >> README.md
 echo "<!--start emoji-->" >> README.md
 
 cp ./reformatted_emoji/* ./emoji
