@@ -7,13 +7,15 @@ const exec = require('child_process').execSync;
 
 try {
   let subdomain = process.argv[3];
-  let token = process.argv[4];
+  let auth = JSON.parse(process.argv[4]);
+  let token = auth.token;
+  let cookie = auth.cookie
   let options = {
     save: process.argv[2],
     output: true
   };
 
-  return emojme.download(subdomain, token, options).then(results => {
+  return emojme.download(subdomain, token, cookie, options).then(results => {
     if (!results || !results[subdomain] || !results[subdomain].saveResults) {
       throw new Error(`unable to retrieve results for ${subdomain}`);
     }
@@ -29,5 +31,5 @@ try {
   });
 } catch(err) {
   console.log(err);
-  throw new Error('Usage: node generate.js USER SUBDOMAIN TOKEN');
+  throw new Error('Usage: node generate.js USER SUBDOMAIN AUTH-JSON');
 }
