@@ -4,12 +4,12 @@
 const emojme = require('emojme');
 const fs = require('fs');
 const exec = require('child_process').execSync;
-
+    
 try {
   let subdomain = process.argv[3];
   let auth = JSON.parse(process.argv[4]);
   let token = auth.token;
-  let cookie = auth.cookie
+  let cookie = auth.cookie;
   let options = {
     save: process.argv[2],
     output: true
